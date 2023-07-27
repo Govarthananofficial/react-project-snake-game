@@ -1,0 +1,109 @@
+.mainscreen
+{
+    margin: 40px auto;
+    height: 550px;
+    width: 97%;
+    justify-content: space-around;
+    display: flex;
+    
+}
+.level
+{
+    height: 550px;
+    width: 550px;
+    display: inline-block;
+    border: 2px solid #3f1f5f;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.scorecard
+{
+    height: 550px;
+    width: 550px;
+    display: inline-block;
+    border: 2px solid #3f1f5f;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+p
+{
+    font-size: 30px;
+    padding: 20px;
+}
+h2
+{
+    font-size: 40px;
+    padding: 20px;
+    color: #3f1f5f;
+}
+h3
+{
+    font-size: 20px;
+    padding: 15px;
+    color: #3f1f5f;
+}
+.instruction
+{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #3f1f5f;
+}
+
+.hscore-div
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    color: #3f1f5f;
+}
+.levelinfo
+{
+    width:280px;
+    display: inline-block;
+}
+.resetbtn
+{
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    background-color: #3f1f5f;
+    color: white;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 35px;
+}
+.resetbtn:hover
+{
+    background-color: #64309c;
+    cursor: pointer;
+}
+p{
+    color: #3f1f5f;
+    text-align: center;
+    
+}
+.resetall
+{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resetallbtn
+{
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    font-size: 15px;
+    color: white;
+    background-color: #3f1f5f;
+    border-style: none;
+    border-radius: 35px;
+}
+.resetallbtn:hover
+{
+    background-color: #64309c;
+    cursor: pointer;
+}
